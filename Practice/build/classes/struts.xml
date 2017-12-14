@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+
+<struts>
+	<constant name="struts.devMode" value="true" />
+
+	<package name="com.internous.action" extends="struts-default">
+
+
+		<action name="HomeAction" class="com.internous.action.HomeAction" method="execute">
+			<result name="success">Login.jsp</result>
+		</action>
+
+
+		<action name="LoginAction" class="com.internous.action.LoginAction" method="execute">
+			<result name="success">BuyItem.jsp</result>
+			<result name="error">index.jsp</result>
+		</action>
+
+
+		<action name="UserCreateAction" class="com.internous.action.UserCreateAction" method="execute">
+			<result name="success">UserCreate.jsp</result>
+			<result name="back">Login.jsp</result>
+		</action>
+
+
+		<action name="UserCreateConfirmAction" class="com.internous.action.UserCreateConfirmAction" method="execute">
+			<result name="success">UserCreateConfirm.jsp</result>
+			<result name="error">UserCreate.jsp</result>
+		</action>
+
+
+		<action name="UserCreateCompleteAction" class="com.internous.action.UserCreateCompleteAction" method="execute">
+			<result name="success">UserCreateComplete.jsp</result>
+		</action>
+
+
+		<action name="BuyItemAction" class="com.internous.action.BuyItemAction" method="execute">
+			<result name="success">BuyItemConfirm.jsp</result>
+			<result name="error">BuyItem.jsp</result>
+		</action>
+
+
+		<action name="BuyItemConfirmAction" class="com.internous.action.BuyItemConfirmAction" method="execute">
+			<result name="success">BuyItemComplete.jsp</result>
+			<result name="error">BuyItem.jsp</result>
+		</action>
+
+
+		<action name="BuyItemCompleteAction" class="com.internous.action.BuyItemCompleteAction" method="execute">
+			<result name="success">index.jsp</result>
+		</action>
+
+
+		<action name="MyPageAction" class="com.internous.action.MyPageAction" method="execute">
+			<result name="success">MyPage.jsp</result>
+		</action>
+
+
+		<action name="LogoutAction" class="com.internous.action.LogoutAction" method="execute">
+			<result name="success">index.jsp</result>
+		</action>
+
+	</package>
+</struts>

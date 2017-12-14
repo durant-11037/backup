@@ -1,0 +1,18 @@
+var a = "山本";
+document.write(a);
+var numbar = 208;
+document.write(numbar);
+var tell = "090-0000-1234";
+document.write(tell);
+var name = "Jody";
+document.write(name);
+var name2 = "高橋さんと鈴木さん";
+document.write(name2);
+var cost = "2001円";
+document.write(cost);
+var month = 12;
+document.write(month + "月");
+var day = 25;
+document.write(day + "日");
+var youbi = "木";
+ducument.write(youbi + "曜日");
