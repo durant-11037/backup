@@ -70,7 +70,7 @@ table {
 			<div>
 				<a href='<s:url action="MyPageAction" />'>マイページ</a><span>から購入履歴を確認できます</span>
 				<p>
-					Homeへ戻る場合は<a href='<s:url action="HomeAction" />'>こちら</a>
+					Homeへ戻る場合は<a href='<s:url action="GoHomeAction" />'>こちら</a>
 				</p>
 			</div>
 		</div>

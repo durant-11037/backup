@@ -22,7 +22,7 @@ item_name varchar(30),
 item_price int,
 item_stock int,
 insert_date datetime,
-updated_date datetime
+update_date datetime
 );
 
 drop table if exists user_buy_item_transaction;
