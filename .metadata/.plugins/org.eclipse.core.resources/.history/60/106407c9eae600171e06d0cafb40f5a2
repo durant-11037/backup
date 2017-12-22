@@ -1,0 +1,6 @@
+package com.internous.dao;
+
+public class BuyItemDAO {
+	private DBConnector dbConnector = new DBConnector();
+	private Connection connection = dbConnector.getConnection();
+}
