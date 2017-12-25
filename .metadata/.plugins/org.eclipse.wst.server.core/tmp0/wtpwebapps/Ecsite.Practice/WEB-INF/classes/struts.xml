@@ -44,7 +44,7 @@
 
 		<action name="BuyItemAction" class="com.internous.action.BuyItemAction"
 			method="execute">
-			<result name="success">buyItemComfirm.jsp</result>
+			<result name="success">buyItemConfirm.jsp</result>
 			<result name="error">buyItem.jsp</result>
 		</action>
 

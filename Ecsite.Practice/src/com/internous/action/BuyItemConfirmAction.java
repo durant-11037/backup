@@ -1,10 +1,11 @@
-puvpackage com.internous.action;
+package com.internous.action;
 
 import java.sql.SQLException;
 import java.util.Map;
 
 import org.apache.struts2.interceptor.SessionAware;
 
+import com.internous.dao.BuyItemCompleteDAO;
 import com.opensymphony.xwork2.ActionSupport;
 
 public class BuyItemConfirmAction extends ActionSupport implements SessionAware{

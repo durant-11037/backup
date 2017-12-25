@@ -18,7 +18,7 @@ body {
 	margin: 0;
 	padding: 0;
 	line-height: 1.6;
-	letter-spacking: 1px;
+	letter-spacing: 1px;
 	font-family: Verdana, Helvetica, sans-serif;
 	font-size: 12px;
 	color: #333;
@@ -74,7 +74,7 @@ table {
 		<div>
 			<h3>登録内容をご確認ください</h3>
 			<table>
-				<s:form action="UserCreateComlpeteAction">
+				<s:form action="UserCreateCompleteAction">
 					<tr id="box">
 						<td><label>ログインID:</label></td>
 						<td><s:property value="loginUserId" escape="false" /></td>
